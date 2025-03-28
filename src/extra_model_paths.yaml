@@ -10,4 +10,26 @@ runpod_worker_comfy:
   upscale_models: models/upscale_models/
   vae: models/vae/
   unet: models/unet/
-  custom_nodes: /runpod-volume/ComfyUI/custom_nodes/MostRGBElementDetector
+  MostRGBElementDetector: /runpod-volume/ComfyUI/custom_nodes/MostRGBElementDetector
+  comfy-image-saver: /runpod-volume/ComfyUI/custom_nodes/comfy-image-saver  
+  comfyui_caption_this: /runpod-volume/ComfyUI/custom_nodes/comfyui_caption_this  
+  ComfyUI_Comfyroll_CustomNodes: /runpod-volume/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes  
+  comfyui_controlnet_aux: /runpod-volume/ComfyUI/custom_nodes/comfyui_controlnet_aux  
+  comfyui_essentials: /runpod-volume/ComfyUI/custom_nodes/comfyui_essentials  
+  comfyui_ipadapter_plus: /runpod-volume/ComfyUI/custom_nodes/comfyui_ipadapter_plus  
+  ComfyUI_JPS-Nodes: /runpod-volume/ComfyUI/custom_nodes/ComfyUI_JPS-Nodes  
+  comfyui-automaticcfg: /runpod-volume/ComfyUI/custom_nodes/comfyui-automaticcfg  
+  comfyui-custom-scripts: /runpod-volume/ComfyUI/custom_nodes/comfyui-custom-scripts  
+  comfyui-easy-use: /runpod-volume/ComfyUI/custom_nodes/comfyui-easy-use  
+  ComfyUI-EasyNode: /runpod-volume/ComfyUI/custom_nodes/ComfyUI-EasyNode  
+  comfyui-florence2: /runpod-volume/ComfyUI/custom_nodes/comfyui-florence2  
+  comfyui-impact-pack: /runpod-volume/ComfyUI/custom_nodes/comfyui-impact-pack  
+  comfyui-kjnodes: /runpod-volume/ComfyUI/custom_nodes/comfyui-kjnodes  
+  ComfyUI-Manager: /runpod-volume/ComfyUI/custom_nodes/ComfyUI-Manager  
+  comfyui-mixlab-nodes: /runpod-volume/ComfyUI/custom_nodes/comfyui-mixlab-nodes  
+  comfyui-string-converter: /runpod-volume/ComfyUI/custom_nodes/comfyui-string-converter  
+  ComfyUI-TiledDiffusion: /runpod-volume/ComfyUI/custom_nodes/ComfyUI-TiledDiffusion  
+  MostRGBElementDetector: /runpod-volume/ComfyUI/custom_nodes/MostRGBElementDetector  
+  Plush-for-ComfyUI: /runpod-volume/ComfyUI/custom_nodes/Plush-for-ComfyUI  
+  rgthree-comfy: /runpod-volume/ComfyUI/custom_nodes/rgthree-comfy  
+  was-node-suite-comfyui: /runpod-volume/ComfyUI/custom_nodes/was-node-suite-comfyui  
