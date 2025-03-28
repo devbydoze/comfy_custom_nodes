@@ -42,7 +42,7 @@ RUN pip install runpod requests
 ADD src/extra_model_paths.yaml ./
 
 # Go to custom nodes
-WORKDIR /custom_nodes
+# WORKDIR /custom_nodes
 
 RUN ln -sfn /runpod-volume/ComfyUI/custom_nodes ./
 
