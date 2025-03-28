@@ -24,13 +24,14 @@ RUN apt-get update && apt-get install -y \
 RUN apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
 
 # Install comfy-cli
-RUN pip install comfy-cli
+#RUN pip install comfy-cli
 
 # Install ComfyUI
-RUN /usr/bin/yes | comfy --workspace /comfyui install --cuda-version 11.8 --nvidia --version 0.3.26
+#RUN /usr/bin/yes | comfy --workspace /comfyui install --cuda-version 11.8 --nvidia --version 0.3.26
 
+RUN git clone https://github.com/devbydoze/ComfyUI_VIZZ /comfyui
 #
-RUN ls -al /comfyui
+#RUN ls -al /comfyui
 
 # Change working directory to ComfyUI
 WORKDIR /comfyui
