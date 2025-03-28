@@ -45,9 +45,9 @@ ADD src/extra_model_paths.yaml ./
 WORKDIR /custom_nodes
 
 # Copy the folder from the build context
-COPY src/MostRGBElementDetector ./MostRGBElementDetector
+ADD src/MostRGBElementDetector ./MostRGBElementDetector
 # Verify the folder is copied
-RUN ls -al /custom_nodes/MostRGBElementDetector
+RUN ls -al /custom_nodes
 
 # Go back to the root
 WORKDIR /
