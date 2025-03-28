@@ -38,6 +38,12 @@ RUN pip install runpod requests
 # Support for the network volume
 ADD src/extra_model_paths.yaml ./
 
+# Go to custom nodes
+WORKDIR /custom_nodes
+
+# Copy the folder from the build context
+COPY src/MostRGBElementDetector ./MostRGBElementDetector
+
 # Go back to the root
 WORKDIR /
 
