@@ -45,7 +45,7 @@ ADD src/extra_model_paths.yaml ./
 # Go to custom nodes
 # WORKDIR /custom_nodes
 
-RUN ln -sf /runpod-volume/ComfyUI/custom_nodes ./
+#RUN ln -sf /runpod-volume/ComfyUI/custom_nodes ./
 
 # Go back to the root
 WORKDIR /
