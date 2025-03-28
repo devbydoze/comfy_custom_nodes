@@ -29,6 +29,9 @@ RUN pip install comfy-cli
 # Install ComfyUI
 RUN /usr/bin/yes | comfy --workspace /comfyui install --cuda-version 11.8 --nvidia --version 0.3.26
 
+#
+RUN ls -al /comfyui
+
 # Change working directory to ComfyUI
 WORKDIR /comfyui
 
@@ -43,6 +46,8 @@ WORKDIR /custom_nodes
 
 # Copy the folder from the build context
 COPY src/MostRGBElementDetector ./MostRGBElementDetector
+# Verify the folder is copied
+RUN ls -al /custom_nodes/MostRGBElementDetector
 
 # Go back to the root
 WORKDIR /
